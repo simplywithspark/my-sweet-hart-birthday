@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a0d13" />
+  <meta name="description" content="A romantic birthday surprise made with love." />
+  <title>Happy Birthday My Love ❤️</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="locked">
+
+  <div class="intro" id="intro">
+    <div class="intro-overlay"></div>
+    <div class="intro-card">
+      <span class="eyebrow">A Little Surprise For You</span>
+      <h1 class="script">Happy Birthday<br />My Love</h1>
+      <p>You are my heart, my peace, and my forever.</p>
+
+      <button class="heart-button" id="openBtn" aria-label="Open birthday surprise">
+        <span class="heart-icon">♥</span>
+        <small>Tap My Heart</small>
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-content reveal">
+        <span class="eyebrow">For My Beautiful Queen</span>
+        <h2 class="script">You Are My<br />Favourite Forever</h2>
+        <p>Every moment with you is a memory I want to keep forever.</p>
+        <a href="#memories" class="primary-btn">Open Our Memories</a>
+      </div>
+    </section>
+
+    <section class="section" id="memories">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Our Story In Pictures</span>
+          <h3 class="script">Beautiful Moments</h3>
+          <p>Small moments. Big memories. Endless love.</p>
+        </div>
+
+        <div class="slideshow reveal">
+          <div class="slides" id="slides"></div>
+          <div class="slideshow-gradient"></div>
+          <div class="slideshow-caption script" id="slideCaption">
+            My favourite place is next to you.
+          </div>
+
+          <button class="slide-nav prev" id="prevBtn" aria-label="Previous photo">‹</button>
+          <button class="slide-nav next" id="nextBtn" aria-label="Next photo">›</button>
+
+          <div class="slide-dots" id="slideDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section album-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Our Little Album</span>
+          <h3 class="script">Forever Us</h3>
+          <p>Tap any photo to open it.</p>
+        </div>
+
+        <div class="album-grid reveal" id="albumGrid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <article class="love-note reveal">
+          <span class="eyebrow">From My Heart</span>
+          <h3 class="script">Happy Birthday, My Love</h3>
+          <p>
+            Thank you for filling my life with love, laughter, and beautiful memories.
+            You are my happiness, my safe place, and my home.
+            I will choose you today, tomorrow, and always.
+          </p>
+          <div class="final-line script">I Love You Endlessly ❤️</div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with ❤️ only for My Love</footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="closeLightbox" aria-label="Close photo">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+    <img id="lightboxImg" src="" alt="Our memory" />
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">›</button>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
