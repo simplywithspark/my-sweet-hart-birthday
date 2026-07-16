@@ -39,7 +39,7 @@ let currentLightbox = 0;
 let slideTimer;
 
 function buildSlideshow() {
-  imageFiles.slice(0, 8).forEach((file, index) => {
+  imageFiles.slice(0,15 ).forEach((file, index) => {
     const img = document.createElement("img");
     img.src = imageBase + file;
     img.alt = `Our memory ${index + 1}`;
